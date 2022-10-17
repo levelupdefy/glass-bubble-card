@@ -1,0 +1,36 @@
+doctype html
+head
+    meta(charset='UTF-8')
+    meta(http-equiv='X-UA-Compatible' content='IE=edge')
+    meta(name='viewport' content='width=device-width, initial-scale=1.0')
+    title bubble glass card
+    link(rel='stylesheet' href='style.css')
+    link(rel="stylesheet" href="bubble.css")
+body.--bg--type1(data-tilt)
+    .container
+        .card.--trsl(data-tilt='' data-tilt-glare='' data-tilt-max-glare='0.5' data-tilt-scale='1.0')
+            img(src='images/profile.png' alt='')
+            h2 Sudip Bak
+            p I like to make beautiful websites which can make your life easier.
+            .links
+                a(aria-label='Facebook' href='#')
+                    img(src='images/facebook.png' alt='')
+                a(aria-label='Twitter' href='#')
+                    img(src='images/twitter.png' alt='')
+                a(aria-label='Telegram' href='#')
+                    img(src='images/telegram.png' alt='')
+            a.btn(href='#' data-tilt='') Message Me
+    .container2 
+        .--wrap
+            .--bubble.--b1
+            .--bubble.--b2
+            .--bubble.--b3
+            .--bubble.--b4
+            .--bubble.--b5
+            .--bubble.--b6
+            .--bubble.--b7
+            .--bubble.--b8
+            .--bubble.--b9
+            .--bubble.--b10
+    script(src='vanilla-tilt.js')
+    script(src="./logic.js") 
